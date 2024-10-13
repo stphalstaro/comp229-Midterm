@@ -5,7 +5,7 @@ Your mission, should you choose to accept it, is to implement the missing logic 
 
 ### Endpoints:
 1. **GET /api/items** - Retrieve the full list of books.
-1. **GET /api/items/search?title=[[partial title name]]** - Retrieve books by a partial title match.
+1. **GET /api/items/search?title=[partial title name]** - Retrieve books by a partial title match.
 2. **GET /api/items/:id** - Retrieve a book by its index (ID).
 3. **POST /api/items** - Add a new book to the collection.
 4. **PUT /api/items/:id** - Update a book by its index (ID).
