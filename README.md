@@ -16,13 +16,13 @@ The array of books is already defined for you in the `server.js` file, but **you
 
 Below is an example of the array you'll be working with:
 
-![Array Example](images/array-example.png)
+![Array Example](public/images/array-example.jpg)
 ---
 
 ## Setup Instructions
 
 1. **Clone the repository from GitHub**  
-   Link to your repository: `https://github.com/yourusername/your-repo-link`
+   Link to repository: `https://github.com/CENT-COL/COMP229-F24-MIDTERM`
 
 2. **Install dependencies**  
    Run the following command in the root folder to install necessary Node.js packages:
@@ -59,7 +59,7 @@ Below is an example of the array you'll be working with:
 
     Here's an example of what your Postman test should look like when successfully testing your API:
 
-    ![Postman Example](images/postman-example.png)
+    ![Postman Example](public/images/postman-example.jpg)
 
 2. **Code Submission**  
    - Include your code in a **.zip** file.
@@ -70,3 +70,5 @@ Below is an example of the array you'll be working with:
 
 ## Good luck!
 Remember, write clean code, validate your inputs, and handle errors gracefully. May your code be bug-free!
+
+

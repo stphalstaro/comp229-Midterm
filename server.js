@@ -27,11 +27,8 @@
  * 
  * 2. **Code Submission**: 
  *    - Include your code in a **.zip** file.
- *    - Provide a **GitHub link** to your repository containing the project.
+ *    - Provide a GitHub link to your repository containing the project.
  *    - Make sure all screenshots are clearly visible in your submission.
- * 
- * Remember: Every good story needs a beginning, middle, and end—so don't forget 
- * to validate inputs and handle errors gracefully!
  * 
  * Good luck, and may your code be bug-free!
  */
@@ -40,6 +37,9 @@ const express = require('express');
 const path = require('path');
 const app = express();
 app.use(express.json());
+
+// Serve static files (e.g., images, CSS) from the "public" folder
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Array of strings (books)
 let books = ['The Hobbit', '1984', 'To Kill a Mockingbird', 'Moby Dick', 'Pride and Prejudice'];
@@ -58,40 +58,48 @@ app.get('/', (req, res) => {
 // Description: Get all items (books)
 // Task: Implement logic to return the full list of books
 app.get('/api/items', (req, res) => {
-    // TODO: Add logic to return all books
-    res.status(501).send('Not Implemented');
+  // TODO: Add logic to return all books
+  res.status(501).send('Not Implemented');
+});
+
+// GET /api/items?title=[<<partial title name>>]
+// Description: Search for books by partial title match
+// Task: Implement logic to return books matching the partial title
+app.get('/api/items/search', (req, res) => {
+  // TODO: Add logic to search for books by title (use partial matching)
+  res.status(501).send('Not Implemented');
 });
 
 // GET /api/items/:id
 // Description: Get a specific item by ID
 // Task: Implement logic to return a book by its index (ID)
 app.get('/api/items/:id', (req, res) => {
-    // TODO: Add logic to return a book by its index
-    res.status(501).send('Not Implemented');
+  // TODO: Add logic to return a book by its index (ID)
+  res.status(501).send('Not Implemented');
 });
 
 // POST /api/items
 // Description: Add a new item
 // Task: Implement logic to add a new book to the array
 app.post('/api/items', (req, res) => {
-    // TODO: Add logic to add a new book to the array
-    res.status(501).send('Not Implemented');
+  // TODO: Add logic to add a new book to the array
+  res.status(501).send('Not Implemented');
 });
 
 // PUT /api/items/:id
 // Description: Update an item by ID
 // Task: Implement logic to update a book by its index (ID)
 app.put('/api/items/:id', (req, res) => {
-    // TODO: Add logic to update a book by its index
-    res.status(501).send('Not Implemented');
+  // TODO: Add logic to update a book by its index
+  res.status(501).send('Not Implemented');
 });
 
 // DELETE /api/items/:id
 // Description: Remove an item by ID
 // Task: Implement logic to remove a book by its index (ID)
 app.delete('/api/items/:id', (req, res) => {
-    // TODO: Add logic to remove a book by its index
-    res.status(501).send('Not Implemented');
+  // TODO: Add logic to remove a book by its index
+  res.status(501).send('Not Implemented');
 });
 
 // Start the server
