@@ -37,6 +37,7 @@
  */
 
 const express = require('express');
+const path = require('path');
 const app = express();
 app.use(express.json());
 
@@ -45,6 +46,11 @@ let books = ['The Hobbit', '1984', 'To Kill a Mockingbird', 'Moby Dick', 'Pride 
 
 // Set the port for the server
 const PORT = 8080;
+
+// Serve the instructions HTML file (index.html)
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '/index.html'));
+});
 
 // API Endpoints
 

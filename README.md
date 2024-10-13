@@ -12,6 +12,11 @@ Your mission, should you choose to accept it, is to implement the missing logic 
 
 The array of books is already defined for you in the `server.js` file, but **you need to implement the logic** for each API endpoint.
 
+### Array Example:
+
+Below is an example of the array you'll be working with:
+
+![Array Example](images/array-example.png)
 ---
 
 ## Setup Instructions
@@ -50,6 +55,11 @@ The array of books is already defined for you in the `server.js` file, but **you
    - The successful response.
    
    You can use Postman, Thunder Client, or another similar API testing tool.
+   ### Postman Test Example:
+
+    Here's an example of what your Postman test should look like when successfully testing your API:
+
+    ![Postman Example](images/postman-example.png)
 
 2. **Code Submission**  
    - Include your code in a **.zip** file.
