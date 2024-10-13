@@ -60,6 +60,14 @@ app.get('/', (req, res) => {
 // Task: Implement logic to return the full list of books
 app.get('/api/items', (req, res) => {
   // TODO: Add logic to return all books
+
+  // ***************************************************************
+  // ***************************************************************
+  // ***************  Implement your code here  ********************
+  // ***************************************************************
+  // ***************************************************************
+
+  // Don't forget to remove the line below:
   res.status(501).send('Not Implemented');
 });
 
@@ -68,6 +76,14 @@ app.get('/api/items', (req, res) => {
 // Task: Implement logic to return books matching the partial title
 app.get('/api/items/search', (req, res) => {
   // TODO: Add logic to search for books by title (use partial matching)
+  
+  // ***************************************************************
+  // ***************************************************************
+  // ***************  Implement your code here  ********************
+  // ***************************************************************
+  // ***************************************************************
+
+  // Don't forget to remove the line below:
   res.status(501).send('Not Implemented');
 });
 
@@ -76,6 +92,14 @@ app.get('/api/items/search', (req, res) => {
 // Task: Implement logic to return a book by its index (ID)
 app.get('/api/items/:id', (req, res) => {
   // TODO: Add logic to return a book by its index (ID)
+  
+  // ***************************************************************
+  // ***************************************************************
+  // ***************  Implement your code here  ********************
+  // ***************************************************************
+  // ***************************************************************
+
+  // Don't forget to remove the line below:
   res.status(501).send('Not Implemented');
 });
 
@@ -84,6 +108,14 @@ app.get('/api/items/:id', (req, res) => {
 // Task: Implement logic to add a new book to the array
 app.post('/api/items', (req, res) => {
   // TODO: Add logic to add a new book to the array
+  
+  // ***************************************************************
+  // ***************************************************************
+  // ***************  Implement your code here  ********************
+  // ***************************************************************
+  // ***************************************************************
+
+  // Don't forget to remove the line below:
   res.status(501).send('Not Implemented');
 });
 
@@ -92,6 +124,14 @@ app.post('/api/items', (req, res) => {
 // Task: Implement logic to update a book by its index (ID)
 app.put('/api/items/:id', (req, res) => {
   // TODO: Add logic to update a book by its index
+  
+  // ***************************************************************
+  // ***************************************************************
+  // ***************  Implement your code here  ********************
+  // ***************************************************************
+  // ***************************************************************
+
+  // Don't forget to remove the line below:
   res.status(501).send('Not Implemented');
 });
 
@@ -100,6 +140,14 @@ app.put('/api/items/:id', (req, res) => {
 // Task: Implement logic to remove a book by its index (ID)
 app.delete('/api/items/:id', (req, res) => {
   // TODO: Add logic to remove a book by its index
+  
+  // ***************************************************************
+  // ***************************************************************
+  // ***************  Implement your code here  ********************
+  // ***************************************************************
+  // ***************************************************************
+
+  // Don't forget to remove the line below:
   res.status(501).send('Not Implemented');
 });
 
