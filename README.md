@@ -51,6 +51,7 @@ Below is an example of the array you'll be working with:
 
 1. **Screenshots**  
    Provide **clear screenshots** of your API tests, showing the following:
+   - There should be **1 screenshot per Endpoint (6 in total)**
    - The API request.
    - The request body (where applicable).
    - The successful response.

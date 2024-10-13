@@ -21,6 +21,7 @@
  * 
  * Submission Requirements:
  * 1. **Screenshots**: Provide screenshots of your API tests, clearly showing:
+ *    - There should be 1 screenshot per Endpoint (6 in total)
  *    - The API request.
  *    - The request body (where applicable).
  *    - The successful response.
