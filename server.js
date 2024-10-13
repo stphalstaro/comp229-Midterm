@@ -10,10 +10,11 @@
  * 
  * Endpoints:
  * 1. GET /api/items       - Retrieve the full list of books.
- * 2. GET /api/items/:id   - Retrieve a book by its index.
- * 3. POST /api/items      - Add a new book to the collection.
- * 4. PUT /api/items/:id   - Update a book by its index.
- * 5. DELETE /api/items/:id - Remove a book from the collection by its index.
+ * 2. GET /api/items/search?title=[partial title name] - Retrieve books by a partial title match.
+ * 3. GET /api/items/:id   - Retrieve a book by its index.
+ * 4. POST /api/items      - Add a new book to the collection.
+ * 5. PUT /api/items/:id   - Update a book by its index.
+ * 6. DELETE /api/items/:id - Remove a book from the collection by its index.
  * 
  * The array of books is already defined for you, but you need to bring the logic
  * to life. Test your work using tools like Postman or Thunder Client.
